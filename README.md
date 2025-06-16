@@ -175,6 +175,6 @@ http://localhost:5173
 ## Sai Ritesh Domakuntla
 
 Portfolio: www.sairitesh.me
-GitHub: github.com/sairiteshdomakuntla
+GitHub: [github.com/sairiteshdomakuntla](https://github.com/sairiteshdomakuntla/)
 
 ---
