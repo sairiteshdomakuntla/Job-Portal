@@ -17,9 +17,9 @@ app.use('/jobs', jobRoutes);
 // DB Connection
 mongoose.connect(process.env.MONGO_URI)
   .then(() => {
-    console.log('✅ MongoDB connected');
+    console.log('MongoDB connected');
     app.listen(process.env.PORT || 5000, () =>
-      console.log(`🚀 Server running on port ${process.env.PORT || 5000}`)
+      console.log(`Server running on port ${process.env.PORT || 5000}`)
     );
   })
-  .catch(err => console.error('❌ MongoDB error:', err));
+  .catch(err => console.error('MongoDB error:', err));
