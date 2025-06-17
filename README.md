@@ -47,44 +47,6 @@ This simple yet powerful job portal demonstrates core CRUD operations with a cle
 
 ---
 
-## 📁 Project Folder Structure
-
-job-portal/
-│
-├── client/ # Frontend React app
-│ ├── public/
-│ ├── src/
-│ │ ├── components/
-│ │ │ ├── JobForm.jsx # Form for creating/editing jobs
-│ │ │ └── JobList.jsx # Component to display job listings
-│ │ ├── pages/
-│ │ │ └── HomePage.jsx # Main page component
-│ │ ├── api.js # Axios configuration
-│ │ ├── App.css # CSS imports
-│ │ ├── App.jsx # Main App component
-│ │ ├── index.css # Global styles with Tailwind
-│ │ └── main.jsx # React entry point
-│ ├── .gitignore
-│ ├── eslint.config.js # ESLint configuration
-│ ├── index.html # HTML entry point
-│ ├── package.json # Frontend dependencies
-│ ├── README.md
-│ └── vite.config.js # Vite configuration
-│
-├── server/ # Backend Express app
-│ ├── controllers/
-│ │ └── jobController.js # Controllers for job CRUD operations
-│ ├── models/
-│ │ └── Job.js # Mongoose model for job schema
-│ ├── routes/
-│ │ └── jobs.js # Routes for job endpoints
-│ ├── .env # Environment variables
-│ ├── package.json # Backend dependencies
-│ └── server.js # Express server entry point
-│
-└── README.md # Project documentation
-
----
 
 ## ⚙️ Setup Instructions
 
